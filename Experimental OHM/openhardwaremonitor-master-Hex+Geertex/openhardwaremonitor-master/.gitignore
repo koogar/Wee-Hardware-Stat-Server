@@ -1,9 +1,0 @@
-*.user
-*.suo
-/.vs
-/packages
-bin
-obj
-launchSettings.json
-/*.nupkg
-/artifacts
