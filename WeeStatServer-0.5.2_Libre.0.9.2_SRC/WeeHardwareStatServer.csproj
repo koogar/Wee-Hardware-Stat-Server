@@ -4,6 +4,7 @@
 		<OutputType>Exe</OutputType>
 		<ApplicationIcon>WeeHardwareStatServer.ico</ApplicationIcon>
 		<ApplicationManifest>app.manifest</ApplicationManifest>
+		<StartupObject>WeeHardwareStatServer.Program</StartupObject>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -18,6 +19,15 @@
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</None>
 		<None Update="ALT_Stop_Server.bat">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="AutoRunOnWindowsStartup\PlaceInStartupFolder\Start-up - Shortcut.lnk">
+		  <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+		</None>
+		<None Update="AutoRunOnWindowsStartup\PlaceInStartupFolder\WeeHardwareStatServer.vbs.lnk">
+		  <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+		</None>
+		<None Update="AutoRunOnWindowsStartup\Simple_Autorun_Using_VBS.txt">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</None>
 		<None Update="DeleteService.bat">
@@ -44,8 +54,20 @@
 		<None Update="RUN AS ADMIN.jpg">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</None>
-		<None Update="RunAsAdmin.jpg">
+		<None Update="RunOnStartup\PlaceInStartupFolder\Start-up - Shortcut.lnk">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="RunOnStartup\PlaceInStartupFolder\WeeHardwareStatServer.lnk">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="RunOnStartup\PlaceInWeeHardwareStatServerFolder\WeeHardwareStatServer - Shortcut.lnk">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="RunOnStartup\PlaceInWeeHardwareStatServerFolder\WeeHardwareStatServer.vbs">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="Simple_Autorun_Using_VBS.txt">
+		  <CopyToOutputDirectory>Never</CopyToOutputDirectory>
 		</None>
 		<None Update="Start_Using_COM3.bat">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -54,33 +76,42 @@
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</None>
 		<None Update="WeeBats\ALT_Start_Server.bat">
-		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		  <CopyToOutputDirectory>Never</CopyToOutputDirectory>
 		</None>
 		<None Update="WeeBats\ALT_Stop_Server.bat">
-		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		  <CopyToOutputDirectory>Never</CopyToOutputDirectory>
 		</None>
 		<None Update="WeeBats\DeleteService.bat">
-		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		  <CopyToOutputDirectory>Never</CopyToOutputDirectory>
 		</None>
 		<None Update="WeeBats\InstallService.bat">
-		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		  <CopyToOutputDirectory>Never</CopyToOutputDirectory>
 		</None>
 		<None Update="WeeBats\Install_As_Windows_Service_Readme.txt">
-		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		  <CopyToOutputDirectory>Never</CopyToOutputDirectory>
 		</None>
 		<None Update="WeeBats\NoPW_InstallService.bat">
-		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		  <CopyToOutputDirectory>Never</CopyToOutputDirectory>
 		</None>
 		<None Update="WeeBats\Start_Using_COM20.bat">
-		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		  <CopyToOutputDirectory>Never</CopyToOutputDirectory>
 		</None>
 		<None Update="WeeBats\Start_Using_COM3.bat">
-		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		  <CopyToOutputDirectory>Never</CopyToOutputDirectory>
 		</None>
 		<None Update="WeeBats\Start_Using_COM6.bat">
-		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		  <CopyToOutputDirectory>Never</CopyToOutputDirectory>
 		</None>
 		<None Update="WeeBats\to use place in root.txt">
+		  <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+		</None>
+		<None Update="WeeHardwareStatServer.ico">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="WeeHardwareStatServer.vbs">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="WeeHardwareStatServerSilent.vbs">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</None>
 	</ItemGroup>
