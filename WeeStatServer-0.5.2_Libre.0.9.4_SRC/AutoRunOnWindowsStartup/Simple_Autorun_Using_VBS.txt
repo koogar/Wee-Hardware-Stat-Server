@@ -1,0 +1,20 @@
+To allow WeeHardwareStatServer to run on Windows startup...
+
+1) Goto the Windows "Start-up" folder here "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup"
+
+2) Right click in the "Start-up" folder and create a "New" shortcut
+
+3) Then browse for the "WeeHardwareStatServer.vbs" or "WeeHardwareStatServerSilent.vbs" (Silent operation, no command window)
+in the "C:\Program Files (x86)\WeeHardwareStatServer" folder.
+
+Then name the shortcut to "WeeHardwareStatServer.vbs" for command window.
+Or name the shortcut to "WeeHardwareStatServerSilent.vbs" for Silent operation, no command window
+
+
+
+Next time Windows runs, WeeHardwareStatServer will autostart on the last know USB port
+
+Note: 
+
+If you changed/Moved the default installation directory you will need to edit the "WeeHardwareStatServer.vbs" or "WeeHardwareStatServerSilent.vbs" in notepad etc, to reflect those changes
+
